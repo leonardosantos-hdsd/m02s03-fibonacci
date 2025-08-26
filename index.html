@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>[M02S03] Ex.06 – Sequência de Fibonacci</title>
+    <style>
+      body { font-family: system-ui; max-width: 640px; margin: 40px auto; padding: 0 16px; }
+      label, input, button { font-size: 1rem; }
+      input, button { padding: .6rem; margin: .35rem 0; }
+      #saida { margin-top: 12px; padding: 12px; background: #f5f5f5; border-radius: 8px; font-family: monospace; }
+    </style>
+  </head>
+  <body>
+    <h1>[M02S03] Ex.: 06 – Sequência de Fibonacci</h1>
+    <p>Digite um número limite para gerar a sequência de Fibonacci até esse valor.</p>
+
+    <form id="form-fib">
+      <label for="limite">Número limite:</label><br />
+      <input id="limite" type="number" placeholder="Ex: 50" required /><br />
+
+      <button type="submit">Gerar Sequência</button>
+    </form>
+
+    <h3>Resultado</h3>
+    <div id="saida"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
